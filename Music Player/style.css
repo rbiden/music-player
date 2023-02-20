@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+main {
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 1px rgba(42, 41, 41, 0.5);
+}
+
+section {
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0 0 25px 1px rgba(42, 41, 41, 0.3);
+}
+
+.fa-play {
+    padding-right: 1.8rem;
+}
+
+h1 {
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+#runtime {
+    margin-top: 1rem;
+    width: 90%;
+}
+
+#runtime::-webkit-slider-runnable-track {
+    border-radius: 4rem;
+    width: 200px;
+    height: 8px;
+    background-color: white;
+}
+
+#runtime::-webkit-slider-thumb {
+    margin-top: -4px;
+    background-color: transparent;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+i {
+    background-color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    box-shadow: 0 0 25px 1px rgba(42, 41, 41, 0.3);
+}
+
+.fa-angle-left, .fa-angle-right {
+    background-color: transparent;
+    box-shadow: unset;
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 1.5rem;
+}
+
+i:active {
+    scale: 0.97;
+}

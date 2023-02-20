@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article class="conan-gray">
+                <img src="src/conan.png" width="300px" height="300px">
+                <h1>Yours - Conan Gray</h1>
+                <audio id="music-conan" src="src/Conan Gray - Yours (Lyrics).mp3"></audio>
+            </article>
+            <article class="the_1975">
+                <img src="src/1975.png" width="300px" height="300px">
+                <h1>It's Not Living (If It's Not With You)</h1>
+                <audio id="music-1975" src="src/The 1975 _ It's Not Living (If It's Not With You) Lyrics.mp3"></audio>
+            </article>
+            <article class="joan">
+                <img src="src/joan.png" width="300px" height="300px">
+                <h1>drive all night - joan</h1>
+                <audio id="music-joan" src="src/drive all night - joan (Lyrics).mp3"></audio>
+            </article>
+            <input type="range" id="runtime" min="1" max="100" value="1">
+        </section>
+        <div class="controls">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-play fa-2xl"></i>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/162af0fcdc.js" crossorigin="anonymous"></script>
+</body>
+</html>
